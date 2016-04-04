@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "http-server -p 8080 ./",
-    "build": "webpack ./js/ClientApp.js ./public/bundle.js",
+    "build": "webpack",
     "test": "semistandard"
   },
   "dependencies": {
