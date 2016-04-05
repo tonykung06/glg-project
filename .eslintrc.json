@@ -1,0 +1,7 @@
+{
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "semi": ["error", "always"],
+    "jsx-quotes": ["error", "prefer-double"]
+  }
+}
