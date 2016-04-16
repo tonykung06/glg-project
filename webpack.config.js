@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 module.exports = {
   context: __dirname,
-  entry: './js/ClientApp',
+  entry: './app/ClientApp',
   output: {
     path: path.join(__dirname, '/public'),
     filename: 'bundle.js'
@@ -20,11 +20,11 @@ module.exports = {
     chunks: false
   },
   module: {
-    // preLoaders: [{
-    //   test: /\.jsx?$/,
-    //   loader: 'eslint-loader',
-    //   exclude: /node_modules/
-    // }],
+    preLoaders: [{
+      test: /\.jsx?$/,
+      loader: 'eslint-loader',
+      exclude: /node_modules/
+    }],
     loaders: [{
       test: /\.jsx?$/,
       loader: 'babel-loader'
@@ -37,12 +37,12 @@ module.exports = {
     }]
   },
   toolbox: {
-    theme: path.join(__dirname, 'scss/toolbox-theme.scss')
+    theme: path.join(__dirname, 'app/toolbox-theme.scss')
   },
   postcss: [autoprefixer],
   plugins: [
     new webpack.NoErrorsPlugin(),
-    new ExtractTextPlugin('react-toolbox.css', {
+    new ExtractTextPlugin('bundle.css', {
       allChunks: true
     })
   ]

@@ -1,0 +1,17 @@
+.feature-card {
+  flex: 1;
+  padding: 1em;
+  box-shadow: none;
+  text-align: center;
+
+  .feature-card-title {
+    justify-content: center;
+  }
+
+  .feature-card-img {
+    width: 5em;
+    height: 5em;
+    margin: 0 auto;
+    background-size: contain;
+  }
+}

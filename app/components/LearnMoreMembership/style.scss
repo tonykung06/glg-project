@@ -1,0 +1,19 @@
+.learn-more-membership {
+  display: flex;
+
+  .member-btn, .client-btn {
+    flex: 1;
+
+    button {
+      line-height: 2;
+      height: auto;
+      display: block;
+      width: 100%;
+      padding: 2em;
+    }
+
+    strong {
+      font-size: 2em;
+    }
+  }
+}

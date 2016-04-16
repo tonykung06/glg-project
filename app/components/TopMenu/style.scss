@@ -1,0 +1,13 @@
+.top-main-nav {
+  white-space: nowrap;
+
+  .home-logo {
+    font-size: 2em;
+  }
+
+  .lang-account-menus {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

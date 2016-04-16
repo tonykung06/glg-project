@@ -1,0 +1,36 @@
+.partner-card {
+  width: 50%;
+  padding: 0 10px;
+  margin-bottom: 1em;
+
+  .partner-card-content {
+    box-shadow: none;
+
+    .partner-main-img {
+      height: 200px;
+      display: flex;
+      align-items: center;
+
+      .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+
+        .material-icons {
+          flex: 1;
+        }
+      }
+    }
+
+    .partner-logo {
+      text-align: center;
+      padding: 1em 0;
+
+      > img {
+        height: 40px;
+      }
+    }
+  }
+}

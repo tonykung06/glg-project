@@ -1,0 +1,11 @@
+@import "~react-toolbox/lib/commons";
+
+.masthead {
+  background: black;
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 100px 60px;
+  font-size: 5em;
+  font-weight: $font-weight-thin;
+}

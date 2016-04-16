@@ -1,0 +1,22 @@
+.partners {
+  > header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 3em;
+
+    h1 {
+      line-height: 3;
+      font-size: 1.2em;
+    }
+
+    h2 {
+      line-height: 2;
+      font-size: 1em;
+    }
+  }
+
+  > .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
