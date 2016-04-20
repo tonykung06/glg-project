@@ -3,3 +3,12 @@
   padding: 2em 0 4em;
   font-size: 1.2em;
 }
+
+a {
+  color: inherit;
+  // color: darken($color-white, 15%);
+
+  // &:hover {
+  //   text-decoration: underline;
+  // }
+}

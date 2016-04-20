@@ -1,9 +1,9 @@
-$tab-text: $color-white;
-$tab-pointer-color: $tab-text;
-$tab-navigation-border-color: transparent;
-$tab-pointer-height: .1rem;
+$tab-text: $color-white !default;
+$tab-pointer-color: $tab-text !default;
+$tab-navigation-border-color: transparent !default;
+$tab-pointer-height: .1rem !default;
 
-$color-text: darken($color-white, 20%) !important;
-$color-primary: lighten($color-black, 20%);
-$color-primary-dark: $color-black;
+$color-primary-dark: $color-black !default;
+
+$button-neutral-color-contrast: darken($color-white, 20%) !default;
 

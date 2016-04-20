@@ -2,7 +2,7 @@
 
 .footer {
   background: $color-primary-dark;
-  color: $color-text;
+  color: darken($color-white, 40%);
   padding: 3em 0 2em;
 
   > .content {

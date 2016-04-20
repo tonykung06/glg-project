@@ -10,6 +10,21 @@
       display: block;
       width: 100%;
       padding: 2em;
+
+      > *:not(.learn-more) {
+        color: $palette-grey-900;
+      }
+
+      > .learn-more {
+        color: $palette-red-700;
+      }
+
+      &:hover {
+        background: $palette-grey-900;
+        > *:not(.learn-more) {
+          color: $palette-grey-50;
+        }
+      }
     }
 
     strong {

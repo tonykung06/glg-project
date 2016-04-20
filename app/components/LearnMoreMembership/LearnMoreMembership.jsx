@@ -10,14 +10,14 @@ const LearnMoreMembership = (props) => {
         <Button raised={true}>
           <div>become a</div>
           <div><strong>council member</strong></div>
-          <div>learn more</div>
+          <div className={style['learn-more']}>learn more</div>
         </Button>
       </Link>
       <Link className={style['client-btn']} to="/">
         <Button raised={true}>
           <div>become a</div>
           <div><strong>client</strong></div>
-          <div>learn more</div>
+          <div className={style['learn-more']}>learn more</div>
         </Button>
       </Link>
     </div>
